@@ -1,0 +1,32 @@
+{
+    "cluster_config": {
+        "master_config": {
+            "disk_config": {
+                "boot_disk_size_gb": 30,
+                "boot_disk_type": "pd-standard"
+            },
+            "machine_type_uri": "n1-standard-2",
+            "num_instances": 1
+        },
+        "software_config": {
+            "image_version": "2.1-debian11"
+        },
+        "worker_config": {
+            "disk_config": {
+                "boot_disk_size_gb": 30,
+                "boot_disk_type": "pd-standard"
+            },
+            "machine_type_uri": "n1-standard-2",
+            "num_instances": 2
+        }
+    },
+    "dag_default_args": {
+        "depends_on_past": false,
+        "email_on_failure": false,
+        "email_on_retry": false,
+        "owner": "aj-airflow"
+    },
+    "bucket_name":"aj-airbnb-project",
+    "project_id":"lucid-bebop-426506-q4",
+    "region":"us-central1"
+}
