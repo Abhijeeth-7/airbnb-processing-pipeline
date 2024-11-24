@@ -2,7 +2,8 @@
 This project involves the automated processing and analysis of three daily data files—reviews, bookings, and payments—for Airbnb. The solution leverages Apache Airflow for orchestration, Apache Spark for data processing, and Google Cloud Platform (GCP) services i.e Cloud Storage, DataProc, and BigQuery, for data storage and querying.
 
 #### Architecture
-![architechtural-diagram](https://github.com/user-attachments/assets/31c4c282-1df9-4b60-87f3-7780bf1aa7c5)
+![architechtural-diagram](https://github.com/user-attachments/assets/68ed0da0-ba9c-40ac-ac3c-e94d3b070e81)
+
 
 #### Detailed explanation
 - **Data Arrival:** 
